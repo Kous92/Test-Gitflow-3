@@ -15,6 +15,7 @@
 		4B4AC5F029D3087D001E5DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4AC5EE29D3087D001E5DB2 /* LaunchScreen.storyboard */; };
 		4B4AC5FE29D308DC001E5DB2 /* TestGitflow3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC5FD29D308DC001E5DB2 /* TestGitflow3Tests.swift */; };
 		4B4AC60629D30949001E5DB2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60529D30949001E5DB2 /* Photo.swift */; };
+		4B4AC60929D30CD0001E5DB2 /* PhotoDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60829D30CD0001E5DB2 /* PhotoDataMock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		4B4AC5FB29D308DC001E5DB2 /* TestGitflow3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitflow3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4AC5FD29D308DC001E5DB2 /* TestGitflow3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitflow3Tests.swift; sourceTree = "<group>"; };
 		4B4AC60529D30949001E5DB2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		4B4AC60829D30CD0001E5DB2 /* PhotoDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataMock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		4B4AC5FC29D308DC001E5DB2 /* TestGitflow3Tests */ = {
 			isa = PBXGroup;
 			children = (
+				4B4AC60729D30CB5001E5DB2 /* PhotoServiceTests */,
 				4B4AC5FD29D308DC001E5DB2 /* TestGitflow3Tests.swift */,
 			);
 			path = TestGitflow3Tests;
@@ -106,6 +109,14 @@
 				4B4AC60529D30949001E5DB2 /* Photo.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		4B4AC60729D30CB5001E5DB2 /* PhotoServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AC60829D30CD0001E5DB2 /* PhotoDataMock.swift */,
+			);
+			path = PhotoServiceTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +231,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4AC60929D30CD0001E5DB2 /* PhotoDataMock.swift in Sources */,
 				4B4AC5FE29D308DC001E5DB2 /* TestGitflow3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
