@@ -8,5 +8,5 @@
 import Foundation
 
 protocol PhotoService {
-    func searchPhotos(with query: String) async -> Result<PhotoResponse, Error>
+    func searchPhotos(with query: String) async -> Result<PhotoResponse, PhotoServiceError>
 }

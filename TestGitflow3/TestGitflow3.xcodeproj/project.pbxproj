@@ -18,6 +18,7 @@
 		4B4AC60929D30CD0001E5DB2 /* PhotoDataMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60829D30CD0001E5DB2 /* PhotoDataMock.swift */; };
 		4B4AC60C29D30FBB001E5DB2 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60B29D30FBB001E5DB2 /* PhotoService.swift */; };
 		4B4AC60E29D3106A001E5DB2 /* PhotoServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60D29D3106A001E5DB2 /* PhotoServiceError.swift */; };
+		4B4AC61029D311F1001E5DB2 /* MockPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60F29D311F1001E5DB2 /* MockPhotoService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		4B4AC60829D30CD0001E5DB2 /* PhotoDataMock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDataMock.swift; sourceTree = "<group>"; };
 		4B4AC60B29D30FBB001E5DB2 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
 		4B4AC60D29D3106A001E5DB2 /* PhotoServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceError.swift; sourceTree = "<group>"; };
+		4B4AC60F29D311F1001E5DB2 /* MockPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPhotoService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				4B4AC60829D30CD0001E5DB2 /* PhotoDataMock.swift */,
+				4B4AC60F29D311F1001E5DB2 /* MockPhotoService.swift */,
 			);
 			path = PhotoServiceTests;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4AC61029D311F1001E5DB2 /* MockPhotoService.swift in Sources */,
 				4B4AC60929D30CD0001E5DB2 /* PhotoDataMock.swift in Sources */,
 				4B4AC5FE29D308DC001E5DB2 /* TestGitflow3Tests.swift in Sources */,
 			);
