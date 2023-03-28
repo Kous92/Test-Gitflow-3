@@ -14,6 +14,7 @@
 		4B4AC5ED29D3087D001E5DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4AC5EC29D3087D001E5DB2 /* Assets.xcassets */; };
 		4B4AC5F029D3087D001E5DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4AC5EE29D3087D001E5DB2 /* LaunchScreen.storyboard */; };
 		4B4AC5FE29D308DC001E5DB2 /* TestGitflow3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC5FD29D308DC001E5DB2 /* TestGitflow3Tests.swift */; };
+		4B4AC60629D30949001E5DB2 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60529D30949001E5DB2 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		4B4AC5F129D3087D001E5DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4AC5FB29D308DC001E5DB2 /* TestGitflow3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGitflow3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4AC5FD29D308DC001E5DB2 /* TestGitflow3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestGitflow3Tests.swift; sourceTree = "<group>"; };
+		4B4AC60529D30949001E5DB2 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		4B4AC5E229D3087C001E5DB2 /* TestGitflow3 */ = {
 			isa = PBXGroup;
 			children = (
+				4B4AC60429D3093A001E5DB2 /* Model */,
 				4B4AC5E329D3087C001E5DB2 /* AppDelegate.swift */,
 				4B4AC5E529D3087C001E5DB2 /* SceneDelegate.swift */,
 				4B4AC5E729D3087C001E5DB2 /* ViewController.swift */,
@@ -95,6 +98,14 @@
 				4B4AC5FD29D308DC001E5DB2 /* TestGitflow3Tests.swift */,
 			);
 			path = TestGitflow3Tests;
+			sourceTree = "<group>";
+		};
+		4B4AC60429D3093A001E5DB2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4B4AC60529D30949001E5DB2 /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4AC60629D30949001E5DB2 /* Photo.swift in Sources */,
 				4B4AC5E829D3087C001E5DB2 /* ViewController.swift in Sources */,
 				4B4AC5E429D3087C001E5DB2 /* AppDelegate.swift in Sources */,
 				4B4AC5E629D3087C001E5DB2 /* SceneDelegate.swift in Sources */,
