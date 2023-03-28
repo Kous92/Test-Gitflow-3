@@ -19,6 +19,8 @@
 		4B4AC60C29D30FBB001E5DB2 /* PhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60B29D30FBB001E5DB2 /* PhotoService.swift */; };
 		4B4AC60E29D3106A001E5DB2 /* PhotoServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60D29D3106A001E5DB2 /* PhotoServiceError.swift */; };
 		4B4AC61029D311F1001E5DB2 /* MockPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC60F29D311F1001E5DB2 /* MockPhotoService.swift */; };
+		4B4AC61329D313E6001E5DB2 /* NetworkPhotoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC61229D313E6001E5DB2 /* NetworkPhotoService.swift */; };
+		4B4AC61529D31489001E5DB2 /* PhotoServiceEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4AC61429D31489001E5DB2 /* PhotoServiceEndpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		4B4AC60B29D30FBB001E5DB2 /* PhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoService.swift; sourceTree = "<group>"; };
 		4B4AC60D29D3106A001E5DB2 /* PhotoServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceError.swift; sourceTree = "<group>"; };
 		4B4AC60F29D311F1001E5DB2 /* MockPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPhotoService.swift; sourceTree = "<group>"; };
+		4B4AC61229D313E6001E5DB2 /* NetworkPhotoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkPhotoService.swift; sourceTree = "<group>"; };
+		4B4AC61429D31489001E5DB2 /* PhotoServiceEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceEndpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 			children = (
 				4B4AC60B29D30FBB001E5DB2 /* PhotoService.swift */,
 				4B4AC60D29D3106A001E5DB2 /* PhotoServiceError.swift */,
+				4B4AC61229D313E6001E5DB2 /* NetworkPhotoService.swift */,
+				4B4AC61429D31489001E5DB2 /* PhotoServiceEndpoint.swift */,
 			);
 			path = PhotoService;
 			sourceTree = "<group>";
@@ -238,7 +244,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B4AC60C29D30FBB001E5DB2 /* PhotoService.swift in Sources */,
+				4B4AC61529D31489001E5DB2 /* PhotoServiceEndpoint.swift in Sources */,
 				4B4AC60E29D3106A001E5DB2 /* PhotoServiceError.swift in Sources */,
+				4B4AC61329D313E6001E5DB2 /* NetworkPhotoService.swift in Sources */,
 				4B4AC60629D30949001E5DB2 /* Photo.swift in Sources */,
 				4B4AC5E829D3087C001E5DB2 /* ViewController.swift in Sources */,
 				4B4AC5E429D3087C001E5DB2 /* AppDelegate.swift in Sources */,
